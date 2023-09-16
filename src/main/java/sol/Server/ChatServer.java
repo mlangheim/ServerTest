@@ -18,5 +18,22 @@ public class ChatServer extends Server {
             sendReply(socket, String.valueOf (anzahl));
             System.out.println("Antwort an Client: " + "message wurde an " + anzahl + " clients gesendet");
         });
+        registerMethod("MATH", (pack, sock) -> {
+            int ergebnis = (Integer)pack.get(1) + (Integer)pack.get(2);
+            sendReply(sock, ergebnis);
+        });
+        registerMethod("STOP", (pack, sock) -> {
+            System.out.println("Server stopps!");
+            try {
+                Thread.sleep(5000);
+            }catch (InterruptedException e){
+                e.printStackTrace();
+            }
+            sendReply(sock, "Server stopped!");
+            stop();
+        });
+    }
+    public void stop(){
+        super.stop();
     }
 }
