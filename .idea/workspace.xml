@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58de66e4-62b6-4f8e-98d2-270dba30e7d6" name="Changes" comment="First Issue of Server">
+    <list default="true" id="58de66e4-62b6-4f8e-98d2-270dba30e7d6" name="Changes" comment="added lambda expression&#10;added stop method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sol/Server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sol/Server/ChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,12 +87,22 @@
       <option name="project" value="LOCAL" />
       <updated>1694856503634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added lambda expression&#10;added stop method">
+      <option name="closed" value="true" />
+      <created>1694872737037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694872737037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Issue of Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Issue of Server" />
+    <MESSAGE value="added lamda expression&#10;added stop method" />
+    <MESSAGE value="added lambda expression&#10;added stop method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lambda expression&#10;added stop method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
